@@ -13,8 +13,8 @@
       <h1 class="login-title">登录</h1>
 
       <el-form label-position="top" @submit.prevent="onLogin">
-        <el-form-item label="账号">
-          <el-input v-model="username" placeholder="请输入您的账号" clearable />
+        <el-form-item label="学工号">
+          <el-input v-model="username" placeholder="请输入您的学工号" clearable />
         </el-form-item>
 
         <el-form-item label="密码">
