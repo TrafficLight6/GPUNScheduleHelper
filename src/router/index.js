@@ -4,6 +4,7 @@ import Bar from '../pages/bar.vue'
 import Line from '../pages/main/line.vue'
 import Schedule from '../pages/main/schedule.vue'
 import Me from '../pages/main/me.vue'
+import Login from '../pages/main/me/login.vue'
 const routes = [
   {
     path: '/',
@@ -29,6 +30,11 @@ const routes = [
         path: 'me',
         name: 'me',
         component: Me,
+      },
+      {
+        path: 'me/login',
+        name: 'me-login',
+        component: Login,
       },
     ],
   },
